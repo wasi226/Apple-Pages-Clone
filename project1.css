@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+   /* position: fixed;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+    height: 8%;
+    background-color: grey;
+    
+}
+#nav h4{
+    color: white;
+    font-weight: 200;
+}
+#navv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 8%;
+    background-color: rgb(61, 58, 58);
+}
+#navv p{
+    color: white;
+    font-weight: 200;
+}
+#navv a{
+    text-decoration: none;
+}
+#centre{
+    width: 100%;
+    height: 84%;
+    background-image: url('https://www.apple.com/v/home/bn/images/heroes/iphone-15-pro/hero_iphone15pro__i70z9oz3hj2i_largetall_2x.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 45px;
+}
+#centre h1{
+    color: white;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 600;
+}
+#centre h3{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+}
+#but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+#Learn{
+    background-color: royalblue;
+    color: white;
+    padding: 10px 20px;
+    font-weight: 600px;
+    border: 2px solid royalblue;
+    font-size: 20px;
+    border-radius: 50px;
+}
+#Buy{
+    background-color: transparent;
+    color: royalblue;
+    padding: 10px 20px;
+    font-weight: 600px;
+    border: 2px solid royalblue;
+    font-size: 20px;
+    border-radius: 50px;
+}
+#Buy:hover{
+    background-color: royalblue;
+    color: white;
+}
+#Learn:hover{
+    background-color: transparent;
+    color: royalblue;
+}
+#full1{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.apple.com/v/home/bn/images/heroes/iphone-15/hero_iphone15_announce__uuemlcwczn6u_largetall_2x.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#full1 h1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    padding-top: 20px;
+}
+#fun{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#full1 h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+#bu{
+    background-color: royalblue;
+    border: 2px solid royalblue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+#butt{
+    background-color: transparent;
+    border: 2px solid royalblue;
+    color: royalblue;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+#butt:hover{
+    background-color: royalblue;
+    color: white;
+}
+#full2{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.apple.com/v/home/bn/images/heroes/ipad-pro/hero_ipadpro__bpt7a9d8sh42_largetall_2x.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#hal{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 25px;
+}
+#halle{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+#chandu{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#chu{
+    background-color: royalblue;
+    color: white;
+    padding:10px 20px ;
+    border-radius: 50px;
+    border: 2px solid royalblue;
+    font-size: 20px;
+}
+#chuh{
+    background-color: transparent;
+    border: 2px solid royalblue;
+    color: royalblue;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+#chuh:hover{
+    background-color: royalblue;
+    color: white;
+}
+#chu:hover{
+    background-color: transparent;
+}
+#full3{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#fu1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+    background-image: url('https://www.apple.com/v/home/bn/images/promos/wwdc24-announce/promo_wwdc24__poirs216yz2u_medium.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#fu2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+    background-image: url('https://www.apple.com/v/home/bn/images/promos/ipad-air/promo_ipadair__cu1bnxi7uuwm_medium.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#full4{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+#ful1{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 100%;
+    background-image: url('https://www.apple.com/v/home/bn/images/promos/macbook-air-m3/promo_macbook_air_m3__e43jegok3wuq_medium.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#ful2{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+    height: 100%;
+    background-image: url('https://www.apple.com/v/home/bn/images/promos/iphone-tradein/promo_iphone_tradein__bugw15ka691e_medium.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#full5{
+    width: 100%;
+    height: 100%;
+    background-image: url('https://www.apple.com/in/home/promos/apple-watch-ultra-2/images/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg');
+    background-size: cover;
+    background-position: center;
+}
+#nav h4{
+    border: 2px solid transparent;
+    padding: 2px 3px;
+    border-radius: 50px;
+}
+#nav h4:hover{
+    background-color: royalblue;
+    color: white;
+}
+#bab{
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+}
+#bab h4{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+#babu p{
+    font-size: 20px;
+    text-align: center;
+}
+#babu button{
+    padding: 15px 20px;
+    border-radius: 50px;
+    background-color: royalblue;
+    border: 2px royalblue;
+    color: white;
+}
+#babu #chun{
+    padding-bottom: 15px;
+
+}
+#button{
+    padding-left: 225px;
+}
